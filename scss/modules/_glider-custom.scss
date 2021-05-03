@@ -3,27 +3,25 @@
     justify-content: space-between;
 }
 
-
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 850px) {
     .glide__slide--custom-styles {
-        display: flex;
-        justify-content: space-between;
         padding: 0 15vw 0 0;
     }
-    
+
     .glide__slides--custom-styles {
         white-space: initial;
     }
-    .glide__bullet--custom, .glide__bullet:hover {
-        background-color: #C4C4C4;
+    .glide__bullet--custom,
+    .glide__bullet:hover {
+        background-color: #c4c4c4;
         border: none;
     }
-    .glide__bullet--active, .glide__bullet:focus  {
-        background-color: #4250BF;
+    .glide__bullet--active,
+    .glide__bullet:focus {
+        background-color: #4250bf;
         border: none;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    
 }

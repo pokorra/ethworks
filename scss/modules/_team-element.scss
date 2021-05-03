@@ -1,4 +1,5 @@
-.team-element, .team-element__link {
+.team-element,
+.team-element__link {
     @include centerflex;
 }
 .team-element__link {
@@ -8,16 +9,16 @@
     border: 1px solid transparent;
     border-radius: 15px;
     &:hover {
-        background-color: rgba(230, 230, 230, .3);
+        background-color: rgba(230, 230, 230, 0.3);
         cursor: pointer;
     }
 }
 .team-element__pic {
-    width:130px;
+    width: 130px;
     height: 130px;
 }
 .team-element__name {
-    color: #38A5DB;
+    color: #38a5db;
     line-height: 34px;
     font-size: 24px;
     font-weight: 400;
@@ -25,13 +26,13 @@
     padding: 1.2vh 0;
 }
 .team-element__subname {
-    color: rgba(1, 18, 38, .5);
+    color: rgba(1, 18, 38, 0.5);
     line-height: 17px;
     font-size: 13px;
     font-weight: 400;
 }
 .team-element__desc {
-    color: #45515F;
+    color: #45515f;
     line-height: 24px;
     font-size: 18px;
     text-align: center;
@@ -43,7 +44,7 @@
     justify-content: space-evenly;
 }
 .team-element__social-media-item {
-    border: 1px solid #7F8B98;
+    border: 1px solid #7f8b98;
     width: 43px;
     height: 23px;
     background-repeat: no-repeat;
@@ -57,7 +58,6 @@
 .team-element__social-media-item:nth-of-type(2) {
     background-image: url(../img/LinkedInBlack.svg);
 }
-
 
 @media only screen and (max-width: 600px) {
     .team-element__pic {

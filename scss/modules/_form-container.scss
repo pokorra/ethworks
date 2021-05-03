@@ -9,7 +9,7 @@
     color: #576677;
     padding-left: 2vw;
     z-index: 2;
-    transition: .3s;
+    transition: 0.3s;
     width: auto;
 }
 
@@ -25,7 +25,6 @@
     border-radius: 25px;
     border: none;
 }
-
 
 @media only screen and (max-width: 600px) {
     .form-container__label {

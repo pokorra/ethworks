@@ -1,14 +1,19 @@
 .footer {
     height: 25vh;
-    background: linear-gradient(180deg, #FAFBFF 0%, #EFF1F9 41.68%, #E9ECF6 49.59%, #CED3E8 93.91%);
+    background: linear-gradient(
+        180deg,
+        #fafbff 0%,
+        #eff1f9 41.68%,
+        #e9ecf6 49.59%,
+        #ced3e8 93.91%
+    );
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 .footer__row {
-padding: 2vw;
-width: 100vw;
-
+    padding: 2vw;
+    width: 100vw;
 }
 .top-row {
     display: flex;
@@ -33,14 +38,14 @@ width: 100vw;
 
 .top-row__contact--email {
     font-size: 20px;
-    color: #0F81FF;
+    color: #0f81ff;
 }
 
 .top-row__button {
     padding: 0 2vw;
     box-shadow: 0px 12px 44px rgba(56, 165, 219, 0.6);
     &:hover {
-        background-color: #38A5DB;
+        background-color: #38a5db;
     }
 }
 
@@ -49,17 +54,16 @@ width: 100vw;
     justify-content: space-between;
     width: 65vw;
     margin: 0 auto;
-    color: #45515F;
+    color: #45515f;
 }
 .final-element {
     width: 100%;
     text-align: center;
-    border-right: 2px solid #9CA4C7;
+    border-right: 2px solid #9ca4c7;
 }
 .final-element:last-of-type {
     border-right: none;
 }
-
 
 @media only screen and (max-width: 900px) {
     .final-links {
@@ -80,7 +84,13 @@ width: 100vw;
     }
     .top-row {
         height: 38vh;
-        background: linear-gradient(180deg, #FAFBFF 0%, #EFF1F9 41.68%, #E9ECF6 49.59%, #CED3E8 93.91%);
+        background: linear-gradient(
+            180deg,
+            #fafbff 0%,
+            #eff1f9 41.68%,
+            #e9ecf6 49.59%,
+            #ced3e8 93.91%
+        );
         flex-direction: column;
     }
     .top-row__logo {
@@ -104,7 +114,7 @@ width: 100vw;
         align-items: stretch;
         width: 95vw;
         margin: 0 auto;
-        color: #45515F;
+        color: #45515f;
     }
     .final-element {
         width: 45vw;

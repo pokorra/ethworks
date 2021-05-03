@@ -1,10 +1,10 @@
-@import './reset';
-@import './mixins';
+@import "./reset";
+@import "./mixins";
 
 @import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
 @import "node_modules/@glidejs/glide/src/assets/sass/glide.theme";
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Sen:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Sen:wght@400;700&display=swap");
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -31,4 +31,8 @@ button {
 }
 .hidden {
     display: none;
+}
+
+.shadow {
+    box-shadow: 0 3px 15px #3947b6;
 }

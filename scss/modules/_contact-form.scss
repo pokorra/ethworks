@@ -5,7 +5,7 @@
     padding: 9vh 3vw 3vh;
     @include centerflex;
     align-items: initial;
-    background-color: #4250BF;
+    background-color: #4250bf;
     border-radius: 15px;
 }
 
@@ -25,13 +25,13 @@
     width: 24px;
     background-color: #ffffff;
     border-radius: 4px;
-    transition: .3s;
+    transition: 0.3s;
 }
 .contact-form__checkbox:hover ~ .contact-form__checkbox--span {
-    background-color: #38A5DB;
+    background-color: #38a5db;
 }
 .contact-form__checkbox:checked ~ .contact-form__checkbox--span {
-    background-color: #252B42;
+    background-color: #252b42;
 }
 .contact-form__label--checkbox {
     color: #ffffff;
@@ -44,7 +44,6 @@
     width: 30%;
     box-shadow: 0px 12px 44px rgba(56, 165, 219, 0.6);
 }
-
 
 @media only screen and (max-width: 900px) {
     .contact-form {
