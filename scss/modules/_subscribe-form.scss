@@ -1,0 +1,26 @@
+.subscribe-form {
+    width: 100%;
+    max-width: 600px;    
+}
+
+.subscribe-form__submit {
+    position: absolute;
+    height: 100%;
+    width: 11vw;
+    right: -3vw;
+}
+
+@media only screen and (max-width: 900px) {
+    .subscribe-form__submit {
+        width: auto;
+        padding: 0 5vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .subscribe-form__submit {
+        width: 100%;
+        top: 56px;
+        right: 0;
+    }
+}

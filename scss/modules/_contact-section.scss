@@ -1,0 +1,35 @@
+.contact-section {
+    height: 77vh;
+    padding: 9vh 0 6vh;
+    background-color: #252B42;
+    color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact__subtitle {
+    width: 40vw;
+    margin: 5vh;
+    line-height: 26px;
+    font-size: 18px;
+    text-align: center;  
+}
+
+@media only screen and (max-width: 900px) {
+    .contact__subtitle {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-section {
+        height: auto;
+    }
+    .contact__subtitle {
+        font-size: 14px;
+        line-height: 18px;
+        margin: 5vh 0;
+    }
+}

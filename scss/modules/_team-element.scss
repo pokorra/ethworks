@@ -1,0 +1,79 @@
+.team-element, .team-element__link {
+    @include centerflex;
+}
+.team-element__link {
+    width: 100%;
+    padding: 2vh 0 1vh;
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    &:hover {
+        background-color: rgba(230, 230, 230, .3);
+        cursor: pointer;
+    }
+}
+.team-element__pic {
+    width:130px;
+    height: 130px;
+}
+.team-element__name {
+    color: #38A5DB;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    padding: 1.2vh 0;
+}
+.team-element__subname {
+    color: rgba(1, 18, 38, .5);
+    line-height: 17px;
+    font-size: 13px;
+    font-weight: 400;
+}
+.team-element__desc {
+    color: #45515F;
+    line-height: 24px;
+    font-size: 18px;
+    text-align: center;
+    padding: 1vh 0 2vh;
+}
+
+.team-element__social-media {
+    display: flex;
+    justify-content: space-evenly;
+}
+.team-element__social-media-item {
+    border: 1px solid #7F8B98;
+    width: 43px;
+    height: 23px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 3px;
+}
+.team-element__social-media-item:first-of-type {
+    background-image: url(../img/FacebookBlack.svg);
+    margin-right: 6px;
+}
+.team-element__social-media-item:nth-of-type(2) {
+    background-image: url(../img/LinkedInBlack.svg);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .team-element__pic {
+        width: 115px;
+        height: 115px;
+    }
+    .team-element__name {
+        font-size: 16px;
+        line-height: 18px;
+        height: 38px;
+    }
+    .team-element__subname {
+        padding-top: 2vh;
+    }
+    .team-element__desc {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}

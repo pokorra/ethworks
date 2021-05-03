@@ -1,0 +1,46 @@
+.team-content {
+    position: relative;
+    margin-top: -15vh;
+    padding-bottom: 10vh;
+}
+.team-content__title {
+    color: #1C1F83;
+    padding: 2vh;
+}
+
+.team-content__elements {
+    padding: 5vh 10vw 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-content__element {
+    padding: 0 1.5vw;
+}
+
+.team-content___bullets {
+    bottom: 3vh;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .team-content {
+        margin-top: 0;
+    }
+    .team-content__elements {
+        padding: 0 10vw;
+    }
+    .team-content__element {
+        max-width: 37vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .team-content {
+        padding-bottom: 12vh;
+    }
+    .team-content__element {
+        max-width: 45vw;
+    }
+}

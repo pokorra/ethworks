@@ -1,0 +1,117 @@
+.footer {
+    height: 25vh;
+    background: linear-gradient(180deg, #FAFBFF 0%, #EFF1F9 41.68%, #E9ECF6 49.59%, #CED3E8 93.91%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer__row {
+padding: 2vw;
+width: 100vw;
+
+}
+.top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4vh 9vw;
+}
+.top-row__logo {
+    width: 96px;
+}
+.top-row__contact {
+    height: 6.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #263396;
+}
+.top-row__contact--msg {
+    font-size: 17px;
+}
+
+.top-row__contact--email {
+    font-size: 20px;
+    color: #0F81FF;
+}
+
+.top-row__button {
+    padding: 0 2vw;
+    box-shadow: 0px 12px 44px rgba(56, 165, 219, 0.6);
+    &:hover {
+        background-color: #38A5DB;
+    }
+}
+
+.final-links {
+    display: flex;
+    justify-content: space-between;
+    width: 65vw;
+    margin: 0 auto;
+    color: #45515F;
+}
+.final-element {
+    width: 100%;
+    text-align: center;
+    border-right: 2px solid #9CA4C7;
+}
+.final-element:last-of-type {
+    border-right: none;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .final-links {
+        width: 90vw;
+    }
+    .top-row {
+        padding: 4vh 3vw;
+    }
+    .top-row__button {
+        padding: 0 4vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        height: auto;
+        background-color: #ffffff;
+    }
+    .top-row {
+        height: 38vh;
+        background: linear-gradient(180deg, #FAFBFF 0%, #EFF1F9 41.68%, #E9ECF6 49.59%, #CED3E8 93.91%);
+        flex-direction: column;
+    }
+    .top-row__logo {
+        width: 55px;
+        align-self: flex-start;
+    }
+    .top-row__contact--msg {
+        font-size: 16px;
+    }
+    .top-row__button {
+        padding: 0 10vw;
+    }
+    .bottom-row {
+        min-height: 100px;
+        background-color: #ffffff;
+    }
+    .final-links {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: stretch;
+        width: 95vw;
+        margin: 0 auto;
+        color: #45515F;
+    }
+    .final-element {
+        width: 45vw;
+        text-align: center;
+        border-right: none;
+        font-size: 12px;
+        line-height: 24px;
+        padding: 1.5vh 0;
+    }
+}

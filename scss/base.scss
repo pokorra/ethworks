@@ -1,0 +1,34 @@
+@import './reset';
+@import './mixins';
+
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.theme";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Sen:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: $font;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+button {
+    border: none;
+    background-color: inherit;
+    font-family: inherit;
+    &:hover {
+        background-color: inherit;
+        cursor: pointer;
+    }
+}
+.hidden {
+    display: none;
+}

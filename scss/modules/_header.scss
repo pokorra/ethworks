@@ -1,0 +1,28 @@
+.header {
+    position: fixed;
+    height: 7.8vh;
+    width: 100vw;
+    padding: 0 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    z-index: 3;
+}
+
+.header__logo {
+    width: 96px;
+}
+
+@media only screen and (max-width: 900px) {
+    .header {
+        padding: 0 5vw;
+        height: 70px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header__logo {
+        width: 56px;
+    }
+}

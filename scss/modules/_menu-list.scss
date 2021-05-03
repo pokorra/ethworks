@@ -1,0 +1,26 @@
+.menu-list {
+    width: 15vw;
+    display: flex;
+    justify-content: space-between;
+    .menu-list__link {
+        padding: 6px 4px;
+        font-size: 16px;
+        line-height: 19.25px;
+        color: #1C2085;
+    }
+    .menu-list__link--active {
+        border-bottom: 2px solid #5454D4;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .menu-list {
+        width: 30vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .menu-list {
+        width: auto;
+    }
+}
